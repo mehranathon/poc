@@ -32,6 +32,8 @@ dependencies {
 	implementation 'org.projectlombok:lombok:1.18.38'
 	implementation 'org.slf4j:slf4j-api:2.0.17'
 
+	implementation 'com.opencsv:opencsv:5.10'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
